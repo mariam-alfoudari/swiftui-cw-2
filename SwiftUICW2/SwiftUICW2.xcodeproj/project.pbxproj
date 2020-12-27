@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39F44AAA2598099C00EE1A20 /* HarryPotterThemeSong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 39F44AA92598099C00EE1A20 /* HarryPotterThemeSong.mp3 */; };
+		39F44AB12598114B00EE1A20 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F44AB02598114B00EE1A20 /* PlaySound.swift */; };
 		D2CB65F8258D6A0C0001A246 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CB65F7258D6A0C0001A246 /* AppDelegate.swift */; };
 		D2CB65FA258D6A0C0001A246 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CB65F9258D6A0C0001A246 /* SceneDelegate.swift */; };
 		D2CB65FC258D6A0C0001A246 /* Ex1-water-bottles.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CB65FB258D6A0C0001A246 /* Ex1-water-bottles.swift */; };
@@ -17,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39F44AA92598099C00EE1A20 /* HarryPotterThemeSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HarryPotterThemeSong.mp3; sourceTree = "<group>"; };
+		39F44AB02598114B00EE1A20 /* PlaySound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		39F44AB32598195E00EE1A20 /* Lateef-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lateef-Regular.ttf"; sourceTree = "<group>"; };
 		D2CB65F4258D6A0C0001A246 /* SwiftUICW2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICW2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2CB65F7258D6A0C0001A246 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2CB65F9258D6A0C0001A246 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,10 +63,13 @@
 		D2CB65F6258D6A0C0001A246 /* SwiftUICW2 */ = {
 			isa = PBXGroup;
 			children = (
+				39F44AA92598099C00EE1A20 /* HarryPotterThemeSong.mp3 */,
 				D2CB65F7258D6A0C0001A246 /* AppDelegate.swift */,
 				D2CB65F9258D6A0C0001A246 /* SceneDelegate.swift */,
 				D2CB65FB258D6A0C0001A246 /* Ex1-water-bottles.swift */,
 				D2CB660F258D7D430001A246 /* Ex2-currency-exchange.swift */,
+				39F44AB02598114B00EE1A20 /* PlaySound.swift */,
+				39F44AB32598195E00EE1A20 /* Lateef-Regular.ttf */,
 				D2CB65FD258D6A0F0001A246 /* Assets.xcassets */,
 				D2CB6602258D6A0F0001A246 /* LaunchScreen.storyboard */,
 				D2CB6605258D6A0F0001A246 /* Info.plist */,
@@ -135,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39F44AAA2598099C00EE1A20 /* HarryPotterThemeSong.mp3 in Resources */,
 				D2CB6604258D6A0F0001A246 /* LaunchScreen.storyboard in Resources */,
 				D2CB6601258D6A0F0001A246 /* Preview Assets.xcassets in Resources */,
 				D2CB65FE258D6A0F0001A246 /* Assets.xcassets in Resources */,
@@ -148,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39F44AB12598114B00EE1A20 /* PlaySound.swift in Sources */,
 				D2CB65F8258D6A0C0001A246 /* AppDelegate.swift in Sources */,
 				D2CB65FA258D6A0C0001A246 /* SceneDelegate.swift in Sources */,
 				D2CB65FC258D6A0C0001A246 /* Ex1-water-bottles.swift in Sources */,
